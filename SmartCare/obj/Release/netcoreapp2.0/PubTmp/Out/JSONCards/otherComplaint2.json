@@ -1,0 +1,40 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "separator": true,
+      "color": "Dark",
+      "text": "and some other issue like:",
+      "wrap": true
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "placeholder": "Placeholder text",
+      "choices": [
+        {
+          "title": "Difficult and painful Swallowing",
+          "value": "Difficult and painful Swallowing"
+        },
+        {
+          "title": "Runny Nose",
+          "value": "Runny Nose"
+        },
+        {
+          "title": "Chest Paint",
+          "value": "Chest Pain"
+        }
+      ],
+      "style": "expanded",
+      "isMultiSelect": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

@@ -1,0 +1,5 @@
+C:\Work\SmartCare-src
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=BasicBot
+--content-root=C:\Work\SmartCare-src
+--file=

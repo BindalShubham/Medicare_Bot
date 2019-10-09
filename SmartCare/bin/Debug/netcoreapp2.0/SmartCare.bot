@@ -1,0 +1,61 @@
+{
+  "name": "SmartCare",
+  "padlock": "3ZBwqPHTjhAvFAEEzGiW2w==!o420V8vxxvqj77hsSDfYiBSqo2qphjtwiJuSV4tUWqVa0RHxA6NEnWasPz/wI9n5",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "83ea10ff-c0c6-4184-bb30-a53cbda71608",
+      "subscriptionId": "5a7363ac-fc5a-4c08-b587-f235dabf4905",
+      "resourceGroup": "Development",
+      "serviceName": "SmartCare",
+      "type": "abs",
+      "name": "SmartCare",
+      "id": "1"
+    },
+    {
+      "connectionString": "axVdVT/iKsAZq8oGkRO/Vg==!qJy5QpmAC4AK+M5VCM/lB6Jkyq91iHMC+O11a/NsywRFX9KB1iNKAmZaDOVIKijbXX5UWfEeZY7jV42vbqCm7BCFE3mgHpK/0h4c20jVbKnUGD7mtbAJGEQ+v2yGJg6dVjQNyg1hhtzNjka5LrMuQu1mn8c7D63m4uj30pQ7VjUV7eI8/TubhYv4TPGgU8uGIt6Jg89oBuT7s3pw3t19BIdixgUahJyE/N/XcV5m90Y=",
+      "tenantId": "83ea10ff-c0c6-4184-bb30-a53cbda71608",
+      "subscriptionId": "5a7363ac-fc5a-4c08-b587-f235dabf4905",
+      "resourceGroup": "Development",
+      "serviceName": "smartcarestorage",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "573478e7-447b-4a9d-8fb8-164a2597e1a3",
+      "appPassword": "ulBBkMzMLyTvS/HOnpK3Lw==!IR513BbxdDIaNR1eeK78/+h6TqU3M7v17snt6cAhX48=",
+      "endpoint": "https://smartcare.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "y+WOWLj07rLSx93KQDg54A==!9rlXNX4bXCbvZTTI2Rx6ir4euO8G7hfRv5mkzoyv24jUH/M5eJD6JypgRqAIDhyg",
+      "applicationId": "c726d2b1-e83b-4d43-abb5-2630d0ca654e",
+      "apiKeys": {},
+      "tenantId": "83ea10ff-c0c6-4184-bb30-a53cbda71608",
+      "subscriptionId": "5a7363ac-fc5a-4c08-b587-f235dabf4905",
+      "resourceGroup": "Development",
+      "serviceName": "SmartCaresi4lil",
+      "type": "appInsights",
+      "id": "5"
+    },
+    {
+      "appId": "c8283b72-abb4-4755-ab84-f584342e2643",
+      "authoringKey": "szaHRelo6tQl2Iqos4zvvA==!G/WfivzWjY7wxeuxrRbYooQrFwI3cZzCSsocyrXIMYTCtdgmTauE5olpXpHnY8JY",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "6"
+    }
+  ]
+}

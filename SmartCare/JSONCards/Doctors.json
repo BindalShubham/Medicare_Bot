@@ -1,0 +1,106 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "size": "Medium",
+          "weight": "Bolder",
+          "text": "Publish Adaptive Card schema"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "weight": "Bolder",
+                  "text": "DOCTORNAME_VALUE",
+                  "wrap": true
+                },
+                {
+                  "type": "TextBlock",
+                  "spacing": "None",
+                  "text": "Created {{DATE(2017-02-14T06:08:39Z,SHORT)}}",
+                  "isSubtle": true,
+                  "wrap": true
+                }
+              ],
+              "width": "stretch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Doctor Description",
+          "wrap": true
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Doctor Id:",
+              "value": "DOCTORID_VALUE"
+            },
+            {
+              "title": "Hospital Id:",
+              "value": "HOSPITALID_VALUE"
+            },
+            {
+              "title": "Designation:",
+              "value": "DESIGNATION_VALUE"
+            },
+            {
+              "title": "Speciality:",
+              "value": "SPECIALITY_VALUE"
+            },
+            {
+              "title": "Languages:",
+              "value": "LANGUAGES_VALUE"
+            }
+             
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Select Appointment Date",
+      "card": {
+        "type": "AdaptiveCard",
+        "style": "emphasis",
+        "body": [
+          {
+            "type": "Input.Date",
+            "id": "DoctorApointmentDate",
+            "min":  "2018-11-23"
+          }         
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Check Time",
+            "data": {
+              "strHospitalId": "HOSPITALID_VALUE",
+              "strDoctorid": "DOCTORID_VALUE"
+            }
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

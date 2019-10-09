@@ -1,0 +1,40 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "separator": true,
+      "color": "Dark",
+      "text": "Do you have other troubles too apart from {medicState.Complaint}",
+      "wrap": true
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "placeholder": "Placeholder text",
+      "choices": [
+        {
+          "title": "Abdominal Pain",
+          "value": "Abdominal Pain"
+        },
+        {
+          "title": "Joint Pain",
+          "value": "Joint Pain"
+        },
+        {
+          "title": "Sore Throat",
+          "value": "Sore Throat"
+        }
+      ],
+      "style": "expanded",
+      "isMultiSelect": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
